@@ -19,12 +19,12 @@ module.exports = function(grunt) {
       src: './api/api.apib',
       keepAlive: false
     });
+    options.path = options.src;
     
     grunt.option('force', options.keepAlive);
 
     var dreddConfiguration = {
-      'blueprintPath': options.src,
-      'server': options.server,
+      'server': options.host,
       'options': options
     };
 
