@@ -40,6 +40,6 @@
     "test": "test"
   },
   "dependencies": {
-    "dredd": "^1.0.8"
+    "dredd": "^4.9.2"
   }
 }
